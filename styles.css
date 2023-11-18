@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    color: #0099D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+header h2 {
+    font-size: medium;
+}
+
+#logo {
+    width: 45%;
+    transition: all 0.3s ease-in-out;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+.nav-menu {
+    padding: 10px;
+}
+
+.items {
+    color: #0099D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: border-bottom 0.8s ease;
+}
+
+.items a {
+    position: relative;
+    font-weight: 580;
+}
+
+.items a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+    z-index: 1;
+    transform: scalex(0);
+    transform-origin: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.items a:hover::before {
+    transform: scaleX(2);
+    cursor: pointer;
+}
+
+.items a:hover {
+    color: #ff671b;
+}
+
+.items li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #0099D9;
+}
+
+#Fondo {
+    background-image: url(./Images/niñaMamá.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+#home .informacion {
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    background: #0099D9;
+    color: white;
+    padding: 20px;
+}
+
+@media (max-width: 800px) {
+    #Fondo {
+        height: 25vh;
+    }
+}
