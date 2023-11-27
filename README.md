@@ -25,3 +25,17 @@ Segundo párrafo
 Una alimentación saludable es esencial para el desarrollo saludable de los niños. Los padres pueden ayudar a sus hijos a comer sano proporcionando una variedad de alimentos saludables, estableciendo un buen ejemplo y haciendo que la hora de comer sea agradable.
 
 ///////////////////////////////////
+
+- Informacion 1 👍
+
+- Informacion 2: 👍
+Aquí está otro, estas son ideas de comidas y eso, en esta información de preferencia si le pudieras poner más como color o que se vea llamativo Porfi
+
+- Informacion 3 👍
+////////////////////////////////////
+
+Los nombres de las integrantes  del equipo son 
+Naidelyn Hernández Leyva 
+Aylin G. Hernández Bautista 
+Marisol A. Barrera Heredia 
+Yeimi A. Morales Rodriguez

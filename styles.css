@@ -67,7 +67,7 @@ header h2 {
 }
 
 .items a:hover::before {
-    transform: scaleX(2);
+    transform: scaleX(1.02);
     cursor: pointer;
 }
 

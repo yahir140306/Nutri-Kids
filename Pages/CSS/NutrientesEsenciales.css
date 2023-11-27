@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    width: 45%;
+    transition: all 0.3s ease-in-out;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+#Fondo {
+    background-image: url(../../Images/niñaMamá.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+img {
+    width: 350px;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+header h2 {
+    font-size: medium;
+}
+
+.header {
+    color: #0099D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.informacion {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #b1b3b4;
+    box-shadow: 0 0 10px #b1b3b4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &>div h2 {
+        text-align: center;
+        margin: 5px;
+    }
+
+    &>div ul li {
+        padding: 5px;
+        margin: 20px;
+    }
+
+    &>p {
+        padding: 10px;
+        margin: 10px;
+    }
+
+
+}
+
+footer {
+    width: 100%;
+    background: #0099D9;
+    color: white;
+    padding: 20px;
+}
+
+.final {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.integrantes {
+    margin: 10px;
+}
+
+@media (max-width: 800px) {
+    #Fondo {
+        height: 25vh;
+    }
+
+    .informacion {
+        flex-direction: column;
+        margin: 10px;
+    }
+}
